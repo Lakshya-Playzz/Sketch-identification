@@ -1,0 +1,38 @@
+body{
+    background: #1a2a6c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+    color: white;
+    background-color: yellowgreen;
+    padding: 10px;
+}
+#show_sketch{
+    float: right;
+
+}
+p{
+    font-size: 30px;
+    color: white;
+
+}
+canvas{
+    border:5px white;
+    border-radius: 20px;
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes myanimation {
+    from{
+        box-shadow: 5px 5px 50px red;
+        
+    }
+    to{
+        box-shadow: 5px 5px 50px yellow;
+    }
+    
+}
